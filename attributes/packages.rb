@@ -28,7 +28,7 @@ default['airflow']['packages'] =
               { name: 'google-api-python-client', version: '>=1.5.0, <1.6.0' },
               { name: 'oauth2client', version: '>=2.0.2, <2.1.0' },
               { name: 'PyOpenSSL', version: '' }],
-    hdfs: [{ name: 'snakebite', version: '>=2.7.8' }],
+    # hdfs: [{ name: 'snakebite', version: '>=2.7.8' }],
     webhdfs: [{ name: 'hdfs[dataframe,avro,kerberos]', version: '>=2.0.4' }],
     hive: [{ name: 'hive-thrift-py', version: '>=0.0.1' },
            { name: 'pyhive', version: '>=0.1.3' },
